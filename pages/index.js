@@ -46,7 +46,7 @@ export default function PaginaInicial() {
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     backgroundColor: appConfig.theme.colors.primary[500],
                     //backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
-                    backgroundImage: 'url(https://tm.ibxk.com.br/2021/11/08/08084133572020.jpg)',
+                    backgroundImage: 'url(https://www.10wallpaper.com/wallpaper/1366x768/1405/universe_nebula-Design_HD_Wallpaper_1366x768.jpg)',
                     backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
                 }}
             >
@@ -118,7 +118,7 @@ export default function PaginaInicial() {
                             fullWidth
                             buttonColors={{
                                 contrastColor: appConfig.theme.colors.neutrals["000"],
-                                mainColor: appConfig.theme.colors.primary[500],
+                                mainColor: appConfig.theme.colors.primary[900],
                                 mainColorLight: appConfig.theme.colors.primary[400],
                                 mainColorStrong: appConfig.theme.colors.primary[600],
                             }}
