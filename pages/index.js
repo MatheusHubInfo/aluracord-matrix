@@ -35,7 +35,7 @@ function Titulo(props) {
 
 export default function PaginaInicial() {
     //  const username = 'Matheus Alves de Lima';
-    const [username, setUsername] = React.useState('MatheusHubInfo');
+    const [username, setUsername] = React.useState('');
     const roteamento = useRouter();
 
     return (
@@ -52,6 +52,7 @@ export default function PaginaInicial() {
             >
                 <Box
                     styleSheet={{
+                        opacity: '0.9',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'space-between',
